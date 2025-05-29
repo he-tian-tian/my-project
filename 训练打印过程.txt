@@ -1,0 +1,531 @@
+D:\下载的各种软件\Python3.12.0\python.exe D:\研一\人工智能\LSTM\train.py 
+加载数据...
+无法使用 utf-8 编码读取文件
+成功使用 gbk 编码读取文件
+创建训练批次...
+初始化模型 (vocab_size=80, hidden_size=128)...
+开始训练，共 10 轮，每轮 461 批次...
+Epoch 1/10, Batch 10/461, Loss: 143.4509, Time: 0.9s
+Epoch 1/10, Batch 20/461, Loss: 196.9226, Time: 1.8s
+Epoch 1/10, Batch 30/461, Loss: 228.1497, Time: 2.6s
+Epoch 1/10, Batch 40/461, Loss: 231.2600, Time: 3.4s
+Epoch 1/10, Batch 50/461, Loss: 250.6294, Time: 4.2s
+Epoch 1/10, Batch 60/461, Loss: 252.9856, Time: 5.0s
+Epoch 1/10, Batch 70/461, Loss: 259.3775, Time: 5.9s
+Epoch 1/10, Batch 80/461, Loss: 270.9714, Time: 6.7s
+Epoch 1/10, Batch 90/461, Loss: 279.0210, Time: 7.5s
+Epoch 1/10, Batch 100/461, Loss: 281.0533, Time: 8.3s
+保存检查点到: outputs/model_epoch_1_batch_100.npy
+Epoch 1/10, Batch 110/461, Loss: 265.5881, Time: 9.2s
+Epoch 1/10, Batch 120/461, Loss: 270.8384, Time: 10.0s
+Epoch 1/10, Batch 130/461, Loss: 288.1244, Time: 10.8s
+Epoch 1/10, Batch 140/461, Loss: 268.9378, Time: 11.6s
+Epoch 1/10, Batch 150/461, Loss: 263.8716, Time: 12.4s
+Epoch 1/10, Batch 160/461, Loss: 259.3273, Time: 13.2s
+Epoch 1/10, Batch 170/461, Loss: 259.4492, Time: 14.0s
+Epoch 1/10, Batch 180/461, Loss: 283.8123, Time: 14.7s
+Epoch 1/10, Batch 190/461, Loss: 270.3114, Time: 15.5s
+Epoch 1/10, Batch 200/461, Loss: 280.1552, Time: 16.3s
+保存检查点到: outputs/model_epoch_1_batch_200.npy
+Epoch 1/10, Batch 210/461, Loss: 272.2253, Time: 17.1s
+Epoch 1/10, Batch 220/461, Loss: 267.6768, Time: 17.8s
+Epoch 1/10, Batch 230/461, Loss: 261.3184, Time: 18.6s
+Epoch 1/10, Batch 240/461, Loss: 274.5562, Time: 19.4s
+Epoch 1/10, Batch 250/461, Loss: 272.3173, Time: 20.1s
+Epoch 1/10, Batch 260/461, Loss: 276.9888, Time: 20.9s
+Epoch 1/10, Batch 270/461, Loss: 280.9725, Time: 21.7s
+Epoch 1/10, Batch 280/461, Loss: 287.7630, Time: 22.4s
+Epoch 1/10, Batch 290/461, Loss: 290.3081, Time: 23.2s
+Epoch 1/10, Batch 300/461, Loss: 288.4206, Time: 24.0s
+保存检查点到: outputs/model_epoch_1_batch_300.npy
+Epoch 1/10, Batch 310/461, Loss: 287.5703, Time: 24.8s
+Epoch 1/10, Batch 320/461, Loss: 289.6944, Time: 25.6s
+Epoch 1/10, Batch 330/461, Loss: 299.6344, Time: 26.3s
+Epoch 1/10, Batch 340/461, Loss: 291.1381, Time: 27.1s
+Epoch 1/10, Batch 350/461, Loss: 287.5549, Time: 27.9s
+Epoch 1/10, Batch 360/461, Loss: 297.4837, Time: 28.6s
+Epoch 1/10, Batch 370/461, Loss: 276.7565, Time: 29.4s
+Epoch 1/10, Batch 380/461, Loss: 292.8368, Time: 30.3s
+Epoch 1/10, Batch 390/461, Loss: 291.0006, Time: 31.1s
+Epoch 1/10, Batch 400/461, Loss: 297.2725, Time: 32.0s
+保存检查点到: outputs/model_epoch_1_batch_400.npy
+Epoch 1/10, Batch 410/461, Loss: 302.2926, Time: 33.0s
+Epoch 1/10, Batch 420/461, Loss: 285.2378, Time: 33.9s
+Epoch 1/10, Batch 430/461, Loss: 289.7983, Time: 34.8s
+Epoch 1/10, Batch 440/461, Loss: 291.3756, Time: 35.6s
+Epoch 1/10, Batch 450/461, Loss: 297.6122, Time: 36.4s
+Epoch 1/10, Batch 460/461, Loss: 279.2914, Time: 37.1s
+Epoch 1/10 完成, 平均损失: 272.3433
+保存检查点到: outputs/model_epoch_1.npy
+Epoch 2/10, Batch 10/461, Loss: 288.7791, Time: 38.0s
+Epoch 2/10, Batch 20/461, Loss: 291.2067, Time: 38.8s
+Epoch 2/10, Batch 30/461, Loss: 299.6765, Time: 39.6s
+Epoch 2/10, Batch 40/461, Loss: 284.9701, Time: 40.3s
+Epoch 2/10, Batch 50/461, Loss: 299.3303, Time: 41.1s
+Epoch 2/10, Batch 60/461, Loss: 292.1075, Time: 41.9s
+Epoch 2/10, Batch 70/461, Loss: 294.2668, Time: 42.7s
+Epoch 2/10, Batch 80/461, Loss: 304.5092, Time: 43.4s
+Epoch 2/10, Batch 90/461, Loss: 311.3930, Time: 44.2s
+Epoch 2/10, Batch 100/461, Loss: 313.6631, Time: 45.0s
+保存检查点到: outputs/model_epoch_2_batch_100.npy
+Epoch 2/10, Batch 110/461, Loss: 296.5139, Time: 45.8s
+Epoch 2/10, Batch 120/461, Loss: 300.6532, Time: 46.5s
+Epoch 2/10, Batch 130/461, Loss: 317.0319, Time: 47.3s
+Epoch 2/10, Batch 140/461, Loss: 294.9023, Time: 48.1s
+Epoch 2/10, Batch 150/461, Loss: 289.3844, Time: 48.9s
+Epoch 2/10, Batch 160/461, Loss: 284.9443, Time: 49.7s
+Epoch 2/10, Batch 170/461, Loss: 285.3525, Time: 50.6s
+Epoch 2/10, Batch 180/461, Loss: 312.2234, Time: 51.7s
+Epoch 2/10, Batch 190/461, Loss: 297.2448, Time: 52.9s
+Epoch 2/10, Batch 200/461, Loss: 307.5032, Time: 54.1s
+保存检查点到: outputs/model_epoch_2_batch_200.npy
+Epoch 2/10, Batch 210/461, Loss: 298.7599, Time: 55.2s
+Epoch 2/10, Batch 220/461, Loss: 293.0785, Time: 56.2s
+Epoch 2/10, Batch 230/461, Loss: 285.4903, Time: 57.3s
+Epoch 2/10, Batch 240/461, Loss: 299.3057, Time: 58.2s
+Epoch 2/10, Batch 250/461, Loss: 295.5105, Time: 59.1s
+Epoch 2/10, Batch 260/461, Loss: 299.2928, Time: 60.0s
+Epoch 2/10, Batch 270/461, Loss: 303.0037, Time: 60.9s
+Epoch 2/10, Batch 280/461, Loss: 309.2297, Time: 61.7s
+Epoch 2/10, Batch 290/461, Loss: 311.3519, Time: 62.6s
+Epoch 2/10, Batch 300/461, Loss: 308.9091, Time: 63.4s
+保存检查点到: outputs/model_epoch_2_batch_300.npy
+Epoch 2/10, Batch 310/461, Loss: 307.3337, Time: 64.2s
+Epoch 2/10, Batch 320/461, Loss: 308.8384, Time: 65.0s
+Epoch 2/10, Batch 330/461, Loss: 319.1418, Time: 65.8s
+Epoch 2/10, Batch 340/461, Loss: 309.5901, Time: 66.6s
+Epoch 2/10, Batch 350/461, Loss: 304.6299, Time: 67.5s
+Epoch 2/10, Batch 360/461, Loss: 314.3693, Time: 68.4s
+Epoch 2/10, Batch 370/461, Loss: 292.1661, Time: 69.3s
+Epoch 2/10, Batch 380/461, Loss: 308.8055, Time: 70.2s
+Epoch 2/10, Batch 390/461, Loss: 306.1541, Time: 71.0s
+Epoch 2/10, Batch 400/461, Loss: 312.0537, Time: 71.8s
+保存检查点到: outputs/model_epoch_2_batch_400.npy
+Epoch 2/10, Batch 410/461, Loss: 317.4275, Time: 72.6s
+Epoch 2/10, Batch 420/461, Loss: 299.5570, Time: 73.4s
+Epoch 2/10, Batch 430/461, Loss: 304.4228, Time: 74.3s
+Epoch 2/10, Batch 440/461, Loss: 306.4710, Time: 75.2s
+Epoch 2/10, Batch 450/461, Loss: 313.5032, Time: 76.1s
+Epoch 2/10, Batch 460/461, Loss: 294.5398, Time: 77.1s
+Epoch 2/10 完成, 平均损失: 303.9707
+保存检查点到: outputs/model_epoch_2.npy
+Epoch 3/10, Batch 10/461, Loss: 304.4187, Time: 78.1s
+Epoch 3/10, Batch 20/461, Loss: 307.1685, Time: 79.0s
+Epoch 3/10, Batch 30/461, Loss: 315.7798, Time: 79.9s
+Epoch 3/10, Batch 40/461, Loss: 299.7700, Time: 80.8s
+Epoch 3/10, Batch 50/461, Loss: 314.5740, Time: 81.8s
+Epoch 3/10, Batch 60/461, Loss: 306.1860, Time: 82.7s
+Epoch 3/10, Batch 70/461, Loss: 307.5944, Time: 83.8s
+Epoch 3/10, Batch 80/461, Loss: 317.9678, Time: 84.7s
+Epoch 3/10, Batch 90/461, Loss: 325.0999, Time: 85.7s
+Epoch 3/10, Batch 100/461, Loss: 327.6056, Time: 86.6s
+保存检查点到: outputs/model_epoch_3_batch_100.npy
+Epoch 3/10, Batch 110/461, Loss: 309.9796, Time: 87.4s
+Epoch 3/10, Batch 120/461, Loss: 314.0410, Time: 88.2s
+Epoch 3/10, Batch 130/461, Loss: 331.0968, Time: 89.0s
+Epoch 3/10, Batch 140/461, Loss: 308.0074, Time: 89.8s
+Epoch 3/10, Batch 150/461, Loss: 302.3674, Time: 90.6s
+Epoch 3/10, Batch 160/461, Loss: 297.7632, Time: 91.4s
+Epoch 3/10, Batch 170/461, Loss: 297.8028, Time: 92.2s
+Epoch 3/10, Batch 180/461, Loss: 324.7200, Time: 93.1s
+Epoch 3/10, Batch 190/461, Loss: 308.5736, Time: 93.9s
+Epoch 3/10, Batch 200/461, Loss: 318.8504, Time: 94.7s
+保存检查点到: outputs/model_epoch_3_batch_200.npy
+Epoch 3/10, Batch 210/461, Loss: 309.8845, Time: 95.5s
+Epoch 3/10, Batch 220/461, Loss: 304.0612, Time: 96.3s
+Epoch 3/10, Batch 230/461, Loss: 295.8176, Time: 97.1s
+Epoch 3/10, Batch 240/461, Loss: 310.2303, Time: 97.9s
+Epoch 3/10, Batch 250/461, Loss: 305.8865, Time: 98.9s
+Epoch 3/10, Batch 260/461, Loss: 309.1982, Time: 99.8s
+Epoch 3/10, Batch 270/461, Loss: 312.3375, Time: 100.6s
+Epoch 3/10, Batch 280/461, Loss: 317.7442, Time: 101.5s
+Epoch 3/10, Batch 290/461, Loss: 319.5189, Time: 102.4s
+Epoch 3/10, Batch 300/461, Loss: 316.7951, Time: 103.4s
+保存检查点到: outputs/model_epoch_3_batch_300.npy
+Epoch 3/10, Batch 310/461, Loss: 314.7497, Time: 104.3s
+Epoch 3/10, Batch 320/461, Loss: 316.1605, Time: 105.3s
+Epoch 3/10, Batch 330/461, Loss: 326.7264, Time: 106.3s
+Epoch 3/10, Batch 340/461, Loss: 316.8404, Time: 107.2s
+Epoch 3/10, Batch 350/461, Loss: 311.3949, Time: 108.1s
+Epoch 3/10, Batch 360/461, Loss: 321.2504, Time: 109.0s
+Epoch 3/10, Batch 370/461, Loss: 298.7135, Time: 110.0s
+Epoch 3/10, Batch 380/461, Loss: 315.6691, Time: 111.1s
+Epoch 3/10, Batch 390/461, Loss: 312.6293, Time: 112.0s
+Epoch 3/10, Batch 400/461, Loss: 318.3159, Time: 113.0s
+保存检查点到: outputs/model_epoch_3_batch_400.npy
+Epoch 3/10, Batch 410/461, Loss: 323.5988, Time: 113.9s
+Epoch 3/10, Batch 420/461, Loss: 305.3331, Time: 115.2s
+Epoch 3/10, Batch 430/461, Loss: 310.2495, Time: 116.1s
+Epoch 3/10, Batch 440/461, Loss: 312.3908, Time: 116.9s
+Epoch 3/10, Batch 450/461, Loss: 319.7302, Time: 117.7s
+Epoch 3/10, Batch 460/461, Loss: 300.9927, Time: 118.5s
+Epoch 3/10 完成, 平均损失: 314.4851
+保存检查点到: outputs/model_epoch_3.npy
+Epoch 4/10, Batch 10/461, Loss: 311.2666, Time: 119.4s
+Epoch 4/10, Batch 20/461, Loss: 313.9124, Time: 120.3s
+Epoch 4/10, Batch 30/461, Loss: 322.3541, Time: 121.1s
+Epoch 4/10, Batch 40/461, Loss: 305.5226, Time: 122.0s
+Epoch 4/10, Batch 50/461, Loss: 320.1832, Time: 122.9s
+Epoch 4/10, Batch 60/461, Loss: 311.0474, Time: 123.8s
+Epoch 4/10, Batch 70/461, Loss: 312.0021, Time: 124.7s
+Epoch 4/10, Batch 80/461, Loss: 322.3175, Time: 125.6s
+Epoch 4/10, Batch 90/461, Loss: 329.5212, Time: 126.5s
+Epoch 4/10, Batch 100/461, Loss: 332.1125, Time: 127.4s
+保存检查点到: outputs/model_epoch_4_batch_100.npy
+Epoch 4/10, Batch 110/461, Loss: 314.3782, Time: 128.3s
+Epoch 4/10, Batch 120/461, Loss: 318.2419, Time: 129.2s
+Epoch 4/10, Batch 130/461, Loss: 335.3002, Time: 130.1s
+Epoch 4/10, Batch 140/461, Loss: 311.4536, Time: 131.0s
+Epoch 4/10, Batch 150/461, Loss: 305.4046, Time: 132.0s
+Epoch 4/10, Batch 160/461, Loss: 300.5287, Time: 132.9s
+Epoch 4/10, Batch 170/461, Loss: 300.4750, Time: 133.9s
+Epoch 4/10, Batch 180/461, Loss: 327.5084, Time: 134.9s
+Epoch 4/10, Batch 190/461, Loss: 311.4888, Time: 135.9s
+Epoch 4/10, Batch 200/461, Loss: 322.0978, Time: 136.9s
+保存检查点到: outputs/model_epoch_4_batch_200.npy
+Epoch 4/10, Batch 210/461, Loss: 313.3020, Time: 137.8s
+Epoch 4/10, Batch 220/461, Loss: 307.4518, Time: 138.8s
+Epoch 4/10, Batch 230/461, Loss: 299.3564, Time: 139.7s
+Epoch 4/10, Batch 240/461, Loss: 313.8373, Time: 140.7s
+Epoch 4/10, Batch 250/461, Loss: 309.0940, Time: 141.6s
+Epoch 4/10, Batch 260/461, Loss: 312.4303, Time: 142.5s
+Epoch 4/10, Batch 270/461, Loss: 315.3473, Time: 143.4s
+Epoch 4/10, Batch 280/461, Loss: 320.6698, Time: 144.3s
+Epoch 4/10, Batch 290/461, Loss: 322.3265, Time: 145.2s
+Epoch 4/10, Batch 300/461, Loss: 319.3224, Time: 146.1s
+保存检查点到: outputs/model_epoch_4_batch_300.npy
+Epoch 4/10, Batch 310/461, Loss: 316.9550, Time: 147.0s
+Epoch 4/10, Batch 320/461, Loss: 318.3265, Time: 147.9s
+Epoch 4/10, Batch 330/461, Loss: 329.1921, Time: 148.8s
+Epoch 4/10, Batch 340/461, Loss: 319.6084, Time: 149.7s
+Epoch 4/10, Batch 350/461, Loss: 314.3375, Time: 150.6s
+Epoch 4/10, Batch 360/461, Loss: 323.9863, Time: 151.6s
+Epoch 4/10, Batch 370/461, Loss: 301.1306, Time: 152.5s
+Epoch 4/10, Batch 380/461, Loss: 318.0644, Time: 153.4s
+Epoch 4/10, Batch 390/461, Loss: 314.7493, Time: 154.3s
+Epoch 4/10, Batch 400/461, Loss: 320.1185, Time: 155.3s
+保存检查点到: outputs/model_epoch_4_batch_400.npy
+Epoch 4/10, Batch 410/461, Loss: 325.2413, Time: 156.2s
+Epoch 4/10, Batch 420/461, Loss: 306.8634, Time: 157.3s
+Epoch 4/10, Batch 430/461, Loss: 311.7119, Time: 158.2s
+Epoch 4/10, Batch 440/461, Loss: 313.7371, Time: 159.2s
+Epoch 4/10, Batch 450/461, Loss: 320.9909, Time: 160.1s
+Epoch 4/10, Batch 460/461, Loss: 302.0991, Time: 161.0s
+Epoch 4/10 完成, 平均损失: 317.8532
+保存检查点到: outputs/model_epoch_4.npy
+Epoch 5/10, Batch 10/461, Loss: 312.3277, Time: 162.0s
+Epoch 5/10, Batch 20/461, Loss: 314.9572, Time: 162.9s
+Epoch 5/10, Batch 30/461, Loss: 323.4463, Time: 163.8s
+Epoch 5/10, Batch 40/461, Loss: 306.6815, Time: 164.7s
+Epoch 5/10, Batch 50/461, Loss: 321.3968, Time: 165.6s
+Epoch 5/10, Batch 60/461, Loss: 312.2419, Time: 166.5s
+Epoch 5/10, Batch 70/461, Loss: 313.1553, Time: 167.4s
+Epoch 5/10, Batch 80/461, Loss: 323.5491, Time: 168.3s
+Epoch 5/10, Batch 90/461, Loss: 330.7492, Time: 169.2s
+Epoch 5/10, Batch 100/461, Loss: 333.4161, Time: 170.1s
+保存检查点到: outputs/model_epoch_5_batch_100.npy
+Epoch 5/10, Batch 110/461, Loss: 315.5895, Time: 171.2s
+Epoch 5/10, Batch 120/461, Loss: 319.3770, Time: 172.2s
+Epoch 5/10, Batch 130/461, Loss: 336.3856, Time: 173.2s
+Epoch 5/10, Batch 140/461, Loss: 312.3634, Time: 174.2s
+Epoch 5/10, Batch 150/461, Loss: 306.1923, Time: 175.1s
+Epoch 5/10, Batch 160/461, Loss: 301.2741, Time: 176.1s
+Epoch 5/10, Batch 170/461, Loss: 301.2154, Time: 177.0s
+Epoch 5/10, Batch 180/461, Loss: 328.3329, Time: 178.0s
+Epoch 5/10, Batch 190/461, Loss: 312.2977, Time: 179.0s
+Epoch 5/10, Batch 200/461, Loss: 322.9560, Time: 179.9s
+保存检查点到: outputs/model_epoch_5_batch_200.npy
+Epoch 5/10, Batch 210/461, Loss: 314.1658, Time: 180.8s
+Epoch 5/10, Batch 220/461, Loss: 308.3090, Time: 181.7s
+Epoch 5/10, Batch 230/461, Loss: 300.1847, Time: 182.6s
+Epoch 5/10, Batch 240/461, Loss: 314.7006, Time: 183.6s
+Epoch 5/10, Batch 250/461, Loss: 309.9300, Time: 184.5s
+Epoch 5/10, Batch 260/461, Loss: 313.2963, Time: 185.4s
+Epoch 5/10, Batch 270/461, Loss: 316.2413, Time: 186.4s
+Epoch 5/10, Batch 280/461, Loss: 321.6093, Time: 187.3s
+Epoch 5/10, Batch 290/461, Loss: 323.3150, Time: 188.2s
+Epoch 5/10, Batch 300/461, Loss: 320.3525, Time: 189.1s
+保存检查点到: outputs/model_epoch_5_batch_300.npy
+Epoch 5/10, Batch 310/461, Loss: 318.0215, Time: 190.0s
+Epoch 5/10, Batch 320/461, Loss: 319.4287, Time: 190.8s
+Epoch 5/10, Batch 330/461, Loss: 330.3297, Time: 191.7s
+Epoch 5/10, Batch 340/461, Loss: 320.6849, Time: 192.6s
+Epoch 5/10, Batch 350/461, Loss: 315.3484, Time: 193.5s
+Epoch 5/10, Batch 360/461, Loss: 325.0504, Time: 194.4s
+Epoch 5/10, Batch 370/461, Loss: 302.1447, Time: 195.3s
+Epoch 5/10, Batch 380/461, Loss: 319.1501, Time: 196.2s
+Epoch 5/10, Batch 390/461, Loss: 315.8304, Time: 197.1s
+Epoch 5/10, Batch 400/461, Loss: 321.2321, Time: 198.0s
+保存检查点到: outputs/model_epoch_5_batch_400.npy
+Epoch 5/10, Batch 410/461, Loss: 326.4190, Time: 199.0s
+Epoch 5/10, Batch 420/461, Loss: 308.0278, Time: 199.8s
+Epoch 5/10, Batch 430/461, Loss: 312.9530, Time: 200.7s
+Epoch 5/10, Batch 440/461, Loss: 315.0263, Time: 201.5s
+Epoch 5/10, Batch 450/461, Loss: 322.3289, Time: 202.4s
+Epoch 5/10, Batch 460/461, Loss: 303.3627, Time: 203.3s
+Epoch 5/10 完成, 平均损失: 318.9010
+保存检查点到: outputs/model_epoch_5.npy
+Epoch 6/10, Batch 10/461, Loss: 313.6267, Time: 204.3s
+Epoch 6/10, Batch 20/461, Loss: 316.2649, Time: 205.3s
+Epoch 6/10, Batch 30/461, Loss: 324.7887, Time: 206.2s
+Epoch 6/10, Batch 40/461, Loss: 307.9630, Time: 207.1s
+Epoch 6/10, Batch 50/461, Loss: 322.7744, Time: 208.0s
+Epoch 6/10, Batch 60/461, Loss: 313.6230, Time: 208.9s
+Epoch 6/10, Batch 70/461, Loss: 314.5631, Time: 209.9s
+Epoch 6/10, Batch 80/461, Loss: 325.0055, Time: 210.8s
+Epoch 6/10, Batch 90/461, Loss: 332.2217, Time: 211.8s
+Epoch 6/10, Batch 100/461, Loss: 334.9897, Time: 212.7s
+保存检查点到: outputs/model_epoch_6_batch_100.npy
+Epoch 6/10, Batch 110/461, Loss: 317.0751, Time: 213.7s
+Epoch 6/10, Batch 120/461, Loss: 320.8651, Time: 214.6s
+Epoch 6/10, Batch 130/461, Loss: 337.9318, Time: 215.5s
+Epoch 6/10, Batch 140/461, Loss: 313.7946, Time: 216.4s
+Epoch 6/10, Batch 150/461, Loss: 307.5552, Time: 217.3s
+Epoch 6/10, Batch 160/461, Loss: 302.5730, Time: 218.2s
+Epoch 6/10, Batch 170/461, Loss: 302.5171, Time: 219.2s
+Epoch 6/10, Batch 180/461, Loss: 329.7592, Time: 220.1s
+Epoch 6/10, Batch 190/461, Loss: 313.6784, Time: 221.1s
+Epoch 6/10, Batch 200/461, Loss: 324.4002, Time: 222.1s
+保存检查点到: outputs/model_epoch_6_batch_200.npy
+Epoch 6/10, Batch 210/461, Loss: 315.5971, Time: 223.1s
+Epoch 6/10, Batch 220/461, Loss: 309.7229, Time: 224.1s
+Epoch 6/10, Batch 230/461, Loss: 301.5508, Time: 225.0s
+Epoch 6/10, Batch 240/461, Loss: 316.0953, Time: 226.0s
+Epoch 6/10, Batch 250/461, Loss: 311.2589, Time: 227.0s
+Epoch 6/10, Batch 260/461, Loss: 314.6499, Time: 227.9s
+Epoch 6/10, Batch 270/461, Loss: 317.6517, Time: 228.8s
+Epoch 6/10, Batch 280/461, Loss: 323.0845, Time: 229.7s
+Epoch 6/10, Batch 290/461, Loss: 324.8460, Time: 230.5s
+Epoch 6/10, Batch 300/461, Loss: 321.9291, Time: 231.3s
+保存检查点到: outputs/model_epoch_6_batch_300.npy
+Epoch 6/10, Batch 310/461, Loss: 319.6371, Time: 232.2s
+Epoch 6/10, Batch 320/461, Loss: 321.0939, Time: 233.0s
+Epoch 6/10, Batch 330/461, Loss: 332.0737, Time: 233.9s
+Epoch 6/10, Batch 340/461, Loss: 322.3618, Time: 234.7s
+Epoch 6/10, Batch 350/461, Loss: 316.9464, Time: 235.5s
+Epoch 6/10, Batch 360/461, Loss: 326.6596, Time: 236.3s
+Epoch 6/10, Batch 370/461, Loss: 303.6292, Time: 237.2s
+Epoch 6/10, Batch 380/461, Loss: 320.7202, Time: 238.0s
+Epoch 6/10, Batch 390/461, Loss: 317.3831, Time: 238.9s
+Epoch 6/10, Batch 400/461, Loss: 322.8141, Time: 239.7s
+保存检查点到: outputs/model_epoch_6_batch_400.npy
+Epoch 6/10, Batch 410/461, Loss: 328.0550, Time: 240.6s
+Epoch 6/10, Batch 420/461, Loss: 309.6133, Time: 241.6s
+Epoch 6/10, Batch 430/461, Loss: 314.6141, Time: 242.5s
+Epoch 6/10, Batch 440/461, Loss: 316.7445, Time: 243.4s
+Epoch 6/10, Batch 450/461, Loss: 324.1236, Time: 244.3s
+Epoch 6/10, Batch 460/461, Loss: 305.0786, Time: 245.2s
+Epoch 6/10 完成, 平均损失: 320.3988
+保存检查点到: outputs/model_epoch_6.npy
+Epoch 7/10, Batch 10/461, Loss: 315.4254, Time: 246.3s
+Epoch 7/10, Batch 20/461, Loss: 318.0947, Time: 247.2s
+Epoch 7/10, Batch 30/461, Loss: 326.6798, Time: 248.2s
+Epoch 7/10, Batch 40/461, Loss: 309.7829, Time: 249.2s
+Epoch 7/10, Batch 50/461, Loss: 324.7234, Time: 250.2s
+Epoch 7/10, Batch 60/461, Loss: 315.5632, Time: 251.2s
+Epoch 7/10, Batch 70/461, Loss: 316.5450, Time: 252.2s
+Epoch 7/10, Batch 80/461, Loss: 327.0740, Time: 253.2s
+Epoch 7/10, Batch 90/461, Loss: 334.3475, Time: 254.1s
+Epoch 7/10, Batch 100/461, Loss: 337.0511, Time: 255.1s
+保存检查点到: outputs/model_epoch_7_batch_100.npy
+Epoch 7/10, Batch 110/461, Loss: 319.0518, Time: 256.1s
+Epoch 7/10, Batch 120/461, Loss: 322.8610, Time: 257.0s
+Epoch 7/10, Batch 130/461, Loss: 340.0353, Time: 258.0s
+Epoch 7/10, Batch 140/461, Loss: 315.7465, Time: 259.0s
+Epoch 7/10, Batch 150/461, Loss: 309.4459, Time: 259.9s
+Epoch 7/10, Batch 160/461, Loss: 304.3877, Time: 260.9s
+Epoch 7/10, Batch 170/461, Loss: 304.3333, Time: 261.9s
+Epoch 7/10, Batch 180/461, Loss: 331.7367, Time: 262.8s
+Epoch 7/10, Batch 190/461, Loss: 315.5588, Time: 263.7s
+Epoch 7/10, Batch 200/461, Loss: 326.3614, Time: 264.6s
+保存检查点到: outputs/model_epoch_7_batch_200.npy
+Epoch 7/10, Batch 210/461, Loss: 317.5232, Time: 265.4s
+Epoch 7/10, Batch 220/461, Loss: 311.6257, Time: 266.3s
+Epoch 7/10, Batch 230/461, Loss: 303.3883, Time: 267.1s
+Epoch 7/10, Batch 240/461, Loss: 317.9858, Time: 267.9s
+Epoch 7/10, Batch 250/461, Loss: 313.0201, Time: 268.8s
+Epoch 7/10, Batch 260/461, Loss: 316.3441, Time: 269.6s
+Epoch 7/10, Batch 270/461, Loss: 319.3365, Time: 270.4s
+Epoch 7/10, Batch 280/461, Loss: 324.7311, Time: 271.3s
+Epoch 7/10, Batch 290/461, Loss: 326.4580, Time: 272.1s
+Epoch 7/10, Batch 300/461, Loss: 323.6443, Time: 273.0s
+保存检查点到: outputs/model_epoch_7_batch_300.npy
+Epoch 7/10, Batch 310/461, Loss: 321.3809, Time: 273.9s
+Epoch 7/10, Batch 320/461, Loss: 322.8349, Time: 274.9s
+Epoch 7/10, Batch 330/461, Loss: 333.8416, Time: 275.8s
+Epoch 7/10, Batch 340/461, Loss: 324.0799, Time: 276.7s
+Epoch 7/10, Batch 350/461, Loss: 318.6565, Time: 277.7s
+Epoch 7/10, Batch 360/461, Loss: 328.4459, Time: 278.6s
+Epoch 7/10, Batch 370/461, Loss: 305.3547, Time: 279.5s
+Epoch 7/10, Batch 380/461, Loss: 322.6255, Time: 280.4s
+Epoch 7/10, Batch 390/461, Loss: 319.3296, Time: 281.3s
+Epoch 7/10, Batch 400/461, Loss: 324.7210, Time: 282.3s
+保存检查点到: outputs/model_epoch_7_batch_400.npy
+Epoch 7/10, Batch 410/461, Loss: 329.9035, Time: 283.2s
+Epoch 7/10, Batch 420/461, Loss: 311.3459, Time: 284.1s
+Epoch 7/10, Batch 430/461, Loss: 316.4246, Time: 285.0s
+Epoch 7/10, Batch 440/461, Loss: 318.7079, Time: 286.4s
+Epoch 7/10, Batch 450/461, Loss: 326.3035, Time: 287.7s
+Epoch 7/10, Batch 460/461, Loss: 307.1333, Time: 288.9s
+Epoch 7/10 完成, 平均损失: 322.2789
+保存检查点到: outputs/model_epoch_7.npy
+Epoch 8/10, Batch 10/461, Loss: 317.5664, Time: 290.1s
+Epoch 8/10, Batch 20/461, Loss: 320.2560, Time: 291.2s
+Epoch 8/10, Batch 30/461, Loss: 329.0002, Time: 292.2s
+Epoch 8/10, Batch 40/461, Loss: 312.1227, Time: 293.2s
+Epoch 8/10, Batch 50/461, Loss: 327.2471, Time: 294.1s
+Epoch 8/10, Batch 60/461, Loss: 318.1101, Time: 295.1s
+Epoch 8/10, Batch 70/461, Loss: 319.1451, Time: 296.0s
+Epoch 8/10, Batch 80/461, Loss: 329.8061, Time: 296.9s
+Epoch 8/10, Batch 90/461, Loss: 337.1661, Time: 297.9s
+Epoch 8/10, Batch 100/461, Loss: 339.8933, Time: 298.8s
+保存检查点到: outputs/model_epoch_8_batch_100.npy
+Epoch 8/10, Batch 110/461, Loss: 321.7926, Time: 299.8s
+Epoch 8/10, Batch 120/461, Loss: 325.5959, Time: 300.8s
+Epoch 8/10, Batch 130/461, Loss: 342.8701, Time: 301.8s
+Epoch 8/10, Batch 140/461, Loss: 318.4031, Time: 302.8s
+Epoch 8/10, Batch 150/461, Loss: 312.0066, Time: 303.8s
+Epoch 8/10, Batch 160/461, Loss: 306.8386, Time: 304.7s
+Epoch 8/10, Batch 170/461, Loss: 306.8590, Time: 305.7s
+Epoch 8/10, Batch 180/461, Loss: 334.4095, Time: 306.6s
+Epoch 8/10, Batch 190/461, Loss: 317.9564, Time: 307.5s
+Epoch 8/10, Batch 200/461, Loss: 328.7888, Time: 308.4s
+保存检查点到: outputs/model_epoch_8_batch_200.npy
+Epoch 8/10, Batch 210/461, Loss: 319.8760, Time: 309.3s
+Epoch 8/10, Batch 220/461, Loss: 313.9118, Time: 310.2s
+Epoch 8/10, Batch 230/461, Loss: 305.4960, Time: 311.1s
+Epoch 8/10, Batch 240/461, Loss: 320.1174, Time: 312.1s
+Epoch 8/10, Batch 250/461, Loss: 314.8772, Time: 313.0s
+Epoch 8/10, Batch 260/461, Loss: 317.9260, Time: 314.0s
+Epoch 8/10, Batch 270/461, Loss: 320.8321, Time: 314.9s
+Epoch 8/10, Batch 280/461, Loss: 326.1700, Time: 315.8s
+Epoch 8/10, Batch 290/461, Loss: 327.9031, Time: 316.8s
+Epoch 8/10, Batch 300/461, Loss: 325.1457, Time: 317.7s
+保存检查点到: outputs/model_epoch_8_batch_300.npy
+Epoch 8/10, Batch 310/461, Loss: 322.9167, Time: 318.7s
+Epoch 8/10, Batch 320/461, Loss: 324.4069, Time: 319.6s
+Epoch 8/10, Batch 330/461, Loss: 335.5041, Time: 320.5s
+Epoch 8/10, Batch 340/461, Loss: 325.7422, Time: 321.5s
+Epoch 8/10, Batch 350/461, Loss: 320.3374, Time: 322.4s
+Epoch 8/10, Batch 360/461, Loss: 330.2263, Time: 323.4s
+Epoch 8/10, Batch 370/461, Loss: 307.0581, Time: 324.4s
+Epoch 8/10, Batch 380/461, Loss: 324.4780, Time: 325.6s
+Epoch 8/10, Batch 390/461, Loss: 321.2071, Time: 326.8s
+Epoch 8/10, Batch 400/461, Loss: 326.6003, Time: 327.8s
+保存检查点到: outputs/model_epoch_8_batch_400.npy
+Epoch 8/10, Batch 410/461, Loss: 331.7839, Time: 328.9s
+Epoch 8/10, Batch 420/461, Loss: 313.1277, Time: 330.0s
+Epoch 8/10, Batch 430/461, Loss: 318.2635, Time: 331.1s
+Epoch 8/10, Batch 440/461, Loss: 320.6175, Time: 332.2s
+Epoch 8/10, Batch 450/461, Loss: 328.2394, Time: 333.4s
+Epoch 8/10, Batch 460/461, Loss: 308.9845, Time: 334.5s
+Epoch 8/10 完成, 平均损失: 324.4165
+保存检查点到: outputs/model_epoch_8.npy
+Epoch 9/10, Batch 10/461, Loss: 319.5221, Time: 335.8s
+Epoch 9/10, Batch 20/461, Loss: 322.2606, Time: 337.0s
+Epoch 9/10, Batch 30/461, Loss: 331.1191, Time: 338.1s
+Epoch 9/10, Batch 40/461, Loss: 314.2124, Time: 339.3s
+Epoch 9/10, Batch 50/461, Loss: 329.5168, Time: 340.5s
+Epoch 9/10, Batch 60/461, Loss: 320.4708, Time: 341.8s
+Epoch 9/10, Batch 70/461, Loss: 321.5663, Time: 343.0s
+Epoch 9/10, Batch 80/461, Loss: 332.3797, Time: 344.1s
+Epoch 9/10, Batch 90/461, Loss: 339.7898, Time: 345.3s
+Epoch 9/10, Batch 100/461, Loss: 342.5007, Time: 346.8s
+保存检查点到: outputs/model_epoch_9_batch_100.npy
+Epoch 9/10, Batch 110/461, Loss: 324.3290, Time: 348.0s
+Epoch 9/10, Batch 120/461, Loss: 328.1078, Time: 349.9s
+Epoch 9/10, Batch 130/461, Loss: 345.5010, Time: 350.9s
+Epoch 9/10, Batch 140/461, Loss: 320.8788, Time: 351.9s
+Epoch 9/10, Batch 150/461, Loss: 314.4346, Time: 353.0s
+Epoch 9/10, Batch 160/461, Loss: 309.2268, Time: 353.9s
+Epoch 9/10, Batch 170/461, Loss: 309.2918, Time: 354.9s
+Epoch 9/10, Batch 180/461, Loss: 337.0581, Time: 355.8s
+Epoch 9/10, Batch 190/461, Loss: 320.4676, Time: 356.7s
+Epoch 9/10, Batch 200/461, Loss: 331.4054, Time: 357.7s
+保存检查点到: outputs/model_epoch_9_batch_200.npy
+Epoch 9/10, Batch 210/461, Loss: 322.4401, Time: 358.6s
+Epoch 9/10, Batch 220/461, Loss: 316.4425, Time: 359.5s
+Epoch 9/10, Batch 230/461, Loss: 307.9525, Time: 360.4s
+Epoch 9/10, Batch 240/461, Loss: 322.6693, Time: 361.4s
+Epoch 9/10, Batch 250/461, Loss: 317.3468, Time: 362.3s
+Epoch 9/10, Batch 260/461, Loss: 320.3134, Time: 363.2s
+Epoch 9/10, Batch 270/461, Loss: 323.1483, Time: 364.1s
+Epoch 9/10, Batch 280/461, Loss: 328.4440, Time: 365.1s
+Epoch 9/10, Batch 290/461, Loss: 330.1719, Time: 366.0s
+Epoch 9/10, Batch 300/461, Loss: 327.3798, Time: 366.9s
+保存检查点到: outputs/model_epoch_9_batch_300.npy
+Epoch 9/10, Batch 310/461, Loss: 325.1391, Time: 367.8s
+Epoch 9/10, Batch 320/461, Loss: 326.6514, Time: 368.7s
+Epoch 9/10, Batch 330/461, Loss: 337.8678, Time: 369.7s
+Epoch 9/10, Batch 340/461, Loss: 328.0935, Time: 370.5s
+Epoch 9/10, Batch 350/461, Loss: 322.6987, Time: 371.4s
+Epoch 9/10, Batch 360/461, Loss: 332.7099, Time: 372.2s
+Epoch 9/10, Batch 370/461, Loss: 309.4048, Time: 373.1s
+Epoch 9/10, Batch 380/461, Loss: 326.9957, Time: 373.9s
+Epoch 9/10, Batch 390/461, Loss: 323.7310, Time: 374.8s
+Epoch 9/10, Batch 400/461, Loss: 329.1650, Time: 375.6s
+保存检查点到: outputs/model_epoch_9_batch_400.npy
+Epoch 9/10, Batch 410/461, Loss: 334.3877, Time: 376.5s
+Epoch 9/10, Batch 420/461, Loss: 315.6177, Time: 377.3s
+Epoch 9/10, Batch 430/461, Loss: 320.8288, Time: 378.1s
+Epoch 9/10, Batch 440/461, Loss: 323.2376, Time: 379.0s
+Epoch 9/10, Batch 450/461, Loss: 330.9524, Time: 379.8s
+Epoch 9/10, Batch 460/461, Loss: 311.5651, Time: 380.7s
+Epoch 9/10 完成, 平均损失: 326.8584
+保存检查点到: outputs/model_epoch_9.npy
+Epoch 10/10, Batch 10/461, Loss: 322.2351, Time: 381.6s
+Epoch 10/10, Batch 20/461, Loss: 325.0331, Time: 382.5s
+Epoch 10/10, Batch 30/461, Loss: 333.9949, Time: 383.3s
+Epoch 10/10, Batch 40/461, Loss: 316.9615, Time: 384.2s
+Epoch 10/10, Batch 50/461, Loss: 332.4185, Time: 385.0s
+Epoch 10/10, Batch 60/461, Loss: 323.3386, Time: 385.9s
+Epoch 10/10, Batch 70/461, Loss: 324.4919, Time: 386.7s
+Epoch 10/10, Batch 80/461, Loss: 335.4629, Time: 387.6s
+Epoch 10/10, Batch 90/461, Loss: 342.9777, Time: 388.4s
+Epoch 10/10, Batch 100/461, Loss: 345.7430, Time: 389.2s
+保存检查点到: outputs/model_epoch_10_batch_100.npy
+Epoch 10/10, Batch 110/461, Loss: 327.4505, Time: 390.1s
+Epoch 10/10, Batch 120/461, Loss: 331.3088, Time: 390.9s
+Epoch 10/10, Batch 130/461, Loss: 348.8949, Time: 391.8s
+Epoch 10/10, Batch 140/461, Loss: 324.0478, Time: 392.6s
+Epoch 10/10, Batch 150/461, Loss: 317.5736, Time: 393.5s
+Epoch 10/10, Batch 160/461, Loss: 312.3320, Time: 394.3s
+Epoch 10/10, Batch 170/461, Loss: 312.4377, Time: 395.2s
+Epoch 10/10, Batch 180/461, Loss: 340.5034, Time: 396.0s
+Epoch 10/10, Batch 190/461, Loss: 323.7575, Time: 396.9s
+Epoch 10/10, Batch 200/461, Loss: 334.7948, Time: 397.7s
+保存检查点到: outputs/model_epoch_10_batch_200.npy
+Epoch 10/10, Batch 210/461, Loss: 325.7577, Time: 398.6s
+Epoch 10/10, Batch 220/461, Loss: 319.7237, Time: 399.4s
+Epoch 10/10, Batch 230/461, Loss: 311.1279, Time: 400.3s
+Epoch 10/10, Batch 240/461, Loss: 325.9971, Time: 401.1s
+Epoch 10/10, Batch 250/461, Loss: 320.5106, Time: 402.0s
+Epoch 10/10, Batch 260/461, Loss: 323.5030, Time: 402.9s
+Epoch 10/10, Batch 270/461, Loss: 326.2709, Time: 403.8s
+Epoch 10/10, Batch 280/461, Loss: 331.5068, Time: 404.6s
+Epoch 10/10, Batch 290/461, Loss: 333.0308, Time: 405.5s
+Epoch 10/10, Batch 300/461, Loss: 329.9817, Time: 406.3s
+保存检查点到: outputs/model_epoch_10_batch_300.npy
+Epoch 10/10, Batch 310/461, Loss: 327.5424, Time: 407.2s
+Epoch 10/10, Batch 320/461, Loss: 329.1328, Time: 408.0s
+Epoch 10/10, Batch 330/461, Loss: 340.5584, Time: 408.9s
+Epoch 10/10, Batch 340/461, Loss: 330.9003, Time: 409.7s
+Epoch 10/10, Batch 350/461, Loss: 325.6609, Time: 410.6s
+Epoch 10/10, Batch 360/461, Loss: 335.7929, Time: 411.4s
+Epoch 10/10, Batch 370/461, Loss: 312.2237, Time: 412.3s
+Epoch 10/10, Batch 380/461, Loss: 329.8278, Time: 413.1s
+Epoch 10/10, Batch 390/461, Loss: 326.5245, Time: 414.1s
+Epoch 10/10, Batch 400/461, Loss: 331.7019, Time: 414.9s
+保存检查点到: outputs/model_epoch_10_batch_400.npy
+Epoch 10/10, Batch 410/461, Loss: 336.8830, Time: 415.8s
+Epoch 10/10, Batch 420/461, Loss: 318.0295, Time: 416.6s
+Epoch 10/10, Batch 430/461, Loss: 323.5101, Time: 417.5s
+Epoch 10/10, Batch 440/461, Loss: 326.1075, Time: 418.4s
+Epoch 10/10, Batch 450/461, Loss: 333.8760, Time: 419.2s
+Epoch 10/10, Batch 460/461, Loss: 314.2931, Time: 420.1s
+Epoch 10/10 完成, 平均损失: 329.8431
+保存检查点到: outputs/model_epoch_10.npy
+训练完成! 最终模型保存到: outputs/model_params.npy
+总训练时间: 420.2s
+
+进程已结束,退出代码0
